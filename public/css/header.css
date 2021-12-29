@@ -1,0 +1,111 @@
+header{
+    background-color: #171a21;
+    padding: 0.5em;
+    user-select: none;
+}
+
+.header-container{
+    padding: 1.8em 0em;
+    width: 98%;
+    max-width: 950px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#logo{
+    width: 140px;
+}
+
+.container-logo{
+    width: 25%;
+}
+
+.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b8b6b4;
+    font-size: 0.9em;
+    width: 35%;
+    min-width: 300px;
+}
+
+.container-login-menu{
+    color: #b8b6b4;
+    font-size: 0.68rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 220px;
+    top: 0;
+    right: 0;
+}
+
+.button-install{
+    background-color: #5c7e10;
+    padding: 0.6em 1.5em;
+    color: #dadada;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    width: 40%;
+}
+
+.button-install:hover{
+    color: #f3f3f3;
+}
+
+.mini-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.mini-menu p{
+    margin: 0 5px;
+}
+
+.mini-menu-items:hover{
+    color: #f3f3f3;
+}
+
+.menu-item:hover .title-menu{
+    color: #f3f3f3;   
+}
+
+#store-menu, #community-menu{
+    position: relative;
+}
+
+#store-menu-hidden, #community-menu-hidden{
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    background-color: #171a21;
+    font-size: 0.7rem;
+    padding: 0.6em 0;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    width: 150px;
+    display: none;
+}
+
+#store-menu:hover #store-menu-hidden, #community-menu:hover #community-menu-hidden{
+    display: block;
+    z-index: 1;
+}
+
+#store-menu-hidden div, #community-menu-hidden div{
+    padding: 0.8em 1.3em;
+}
+
+#store-menu-hidden a, #community-menu-hidden a{
+    text-decoration: none;
+    color: #b8b6b4;
+}
+
+.hidden-menu-items:hover p{
+    color: #f3f3f3;
+}

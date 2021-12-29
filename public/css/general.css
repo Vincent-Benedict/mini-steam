@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    width: fit-content;
+}
